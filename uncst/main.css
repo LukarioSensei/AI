@@ -1,0 +1,108 @@
+.nav {
+    background-color: #555;
+    height: 43px;
+    overflow: hidden;
+}
+
+#hom {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#con {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#gal {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#log {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: blue;
+}
+
+.paragraph {
+    margin-bottom: 50px;
+    width: 1000px;
+}
+
+#frm {
+    width: 60%;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+.gallery {
+    margin: 10px;
+    border: 5px solid grey;
+    float: left;
+    width: 300px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
